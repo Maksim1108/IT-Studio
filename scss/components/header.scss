@@ -1,0 +1,15 @@
+.header {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    &__menu {
+        margin-top: 40px;
+        justify-content: flex-end;
+    }
+    &__link {
+        padding-left: 40px;
+        font-size: 16px;
+        line-height: 20px;
+        color: $white;
+    }
+}

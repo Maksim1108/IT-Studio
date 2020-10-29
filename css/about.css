@@ -1,0 +1,10 @@
+.about {
+  min-height: 800px;
+  background-color: #F6F6F8;
+}
+
+.about__title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+}

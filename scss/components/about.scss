@@ -1,0 +1,21 @@
+.about {
+    min-height: 800px;
+    background-color: #F6F6F8;
+    &__title {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 53px;
+        color: $dark;
+    }
+    &__description {
+        font-size: 16px;
+        line-height: 25px;
+        color: $grey;
+    }
+    &__link {
+        font-size: 16px;
+        line-height: 20px;
+        text-decoration-line: underline;
+        color: $blue;
+    }
+}

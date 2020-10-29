@@ -1,0 +1,25 @@
+.hero {
+    background: url(../../img/hero/hero-bg.jpg) no-repeat center top;
+    position: relative;
+    &__content {
+        @include flexbox;
+        flex-direction: column;
+        text-align: center;
+    }
+    &__subtitle {
+        margin-top: 320px;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    &__title {
+        font-size: 48px;
+        line-height: 64px;
+        color: #FFFFFF;
+        padding: 20px 0 50px 0;
+    }
+    &__btn {
+        margin-bottom: 335px;
+        @include blue-btn;
+    }
+}
