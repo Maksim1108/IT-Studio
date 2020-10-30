@@ -1,0 +1,14 @@
+.projects {
+  background: #F6F6F8;
+  min-height: 776px;
+}
+
+.projects__content {
+  text-align: center;
+}
+
+.projects__title {
+  font-size: 36px;
+  line-height: 53px;
+  color: #000000;
+}

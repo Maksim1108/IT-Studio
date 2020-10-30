@@ -272,3 +272,41 @@ button {
 .works span {
   color: #4985FF;
 }
+
+.projects {
+  background: #F6F6F8;
+}
+
+.projects__content {
+  text-align: center;
+}
+
+.projects__title {
+  padding-top: 100px;
+  font-size: 36px;
+  line-height: 53px;
+  color: #000000;
+}
+
+.projects__subtitle {
+  padding-top: 50px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #999999;
+}
+
+.projects__img {
+  padding: 70px 0 0 15px;
+}
+
+.projects__btn {
+  width: 200px;
+  height: 45px;
+  background: #4985FF;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin: 50px 0 130px 0;
+}

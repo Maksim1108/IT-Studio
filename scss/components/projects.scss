@@ -1,0 +1,25 @@
+.projects {
+    background: #F6F6F8;
+    &__content {
+        text-align: center;
+    }
+    &__title {
+        padding-top: 100px;
+        font-size: 36px;
+        line-height: 53px;
+        color: $black;
+    }
+    &__subtitle {
+        padding-top: 50px;
+        font-size: 16px;
+        line-height: 25px;
+        color:$grey;
+    }
+    &__img {
+        padding:70px 0 0 15px;
+    }
+    &__btn {
+        @include blue-btn;
+        margin: 50px 0 130px 0;
+    }
+}
