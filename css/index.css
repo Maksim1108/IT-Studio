@@ -111,10 +111,6 @@ button {
   color: #FFFFFF;
 }
 
-.hero__btn:active {
-  transform: scale(0.97);
-}
-
 .services__title {
   margin-top: 110px;
   font-weight: bold;
@@ -162,7 +158,6 @@ button {
 }
 
 .about {
-  min-height: 800px;
   background-color: #F6F6F8;
 }
 
@@ -219,4 +214,61 @@ button {
   font-size: 16px;
   line-height: 25px;
   color: #999999;
+}
+
+.works {
+  background: linear-gradient(to bottom, #504DC2 50%, #FFFFFF 50%);
+}
+
+.works__title {
+  font-size: 36px;
+  line-height: 53px;
+  color: #FFFFFF;
+  margin-top: 100px;
+}
+
+.works__btn {
+  width: 200px;
+  height: 45px;
+  background: #4985FF;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin: 120px 0 0 385px;
+}
+
+.works__img {
+  padding-top: 70px;
+}
+
+.works__text {
+  padding-top: 30px;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.works__description {
+  padding-top: 30px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #999999;
+}
+
+.works__link {
+  display: block;
+  padding-top: 30px;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #4985FF;
+}
+
+.works__hr {
+  margin: 85px 0;
+}
+
+.works span {
+  color: #4985FF;
 }

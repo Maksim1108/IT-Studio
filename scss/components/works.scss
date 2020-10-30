@@ -1,0 +1,42 @@
+.works {
+    background: linear-gradient(to bottom, #504DC2
+    50%, #FFFFFF 50%);
+    &__title {
+        font-size: 36px;
+        line-height: 53px;
+        color: $white;
+        margin-top: 100px;
+    }
+    &__btn {
+        @include blue-btn;
+        margin: 120px 0 0 385px;
+    }
+    &__img {
+        padding-top: 70px;
+    }
+    &__text {
+        padding-top: 30px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    &__description {
+        padding-top: 30px;
+        font-size: 16px;
+        line-height: 25px;
+        color:$grey;
+    }
+    &__link {
+        display: block;
+        padding-top: 30px;
+        font-size: 16px;
+        line-height: 20px;
+        text-decoration-line: underline;
+        color:$blue;
+    }
+    &__hr {
+        margin: 85px 0;
+    }
+    span {
+        color:$blue;
+    }
+}

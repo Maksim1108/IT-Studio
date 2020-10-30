@@ -1,0 +1,10 @@
+.works {
+  min-height: 900px;
+  background: linear-gradient(to bottom, #504DC2 50%, #FFFFFF 50%);
+}
+
+.works__title {
+  font-size: 36px;
+  line-height: 53px;
+  color: #FFFFFF;
+}
