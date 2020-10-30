@@ -1,0 +1,50 @@
+.video {
+    background:url(../../img/video/video-bg.jpg);
+    min-height: 570px;
+    &__content {
+        position: relative;
+        text-align: center;
+    }
+    &__title {
+        padding-top: 70px;
+        font-size: 36px;
+        line-height: 53px;
+        color:$white;
+    }
+    &__subtitle {
+        padding-top: 30px;
+        font-size: 16px;
+        line-height: 25px;
+        color:$white;
+    }
+    &__image {
+        position: absolute;
+        z-index: 0;
+        left: 60px;
+        top: 210px;
+    }
+    &__btn {
+        position: relative;
+        margin-top: 235px;
+        width: 300px;
+        height: 100px;
+        border:1px;
+        background:transparent;
+        border: 1px solid $white;
+        box-sizing: border-box;
+        border-radius: 200px;
+    }
+    &__icon {
+        position: absolute;
+        top: 20px;
+        left: 40px;
+    }
+    &__btn-description {
+        position: absolute;
+        top: 40px;
+        left: 125px;
+        font-size :16px;
+        line-height: 25px;
+        color:$white;
+    }
+}

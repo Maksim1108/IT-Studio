@@ -1,0 +1,13 @@
+.video {
+  background: url(../../img/video/video-bg.jpg);
+  min-height: 570px;
+}
+
+.video__content {
+  text-align: center;
+}
+
+.video__title {
+  font-size: 36px;
+  line-height: 53px;
+}
