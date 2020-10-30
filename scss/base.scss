@@ -26,6 +26,8 @@ input {
 }
 
 button {
+    cursor: pointer;
     outline: none;
     border: none;
+    transform: scale(0.97);
 }

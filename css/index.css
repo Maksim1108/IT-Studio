@@ -26,8 +26,10 @@ input {
 }
 
 button {
+  cursor: pointer;
   outline: none;
   border: none;
+  transform: scale(0.97);
 }
 
 .container {
@@ -37,6 +39,11 @@ button {
 
 .flex {
   display: flex;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .col-4 {
@@ -104,6 +111,10 @@ button {
   color: #FFFFFF;
 }
 
+.hero__btn:active {
+  transform: scale(0.97);
+}
+
 .services__title {
   margin-top: 110px;
   font-weight: bold;
@@ -156,21 +167,56 @@ button {
 }
 
 .about__title {
-  font-weight: bold;
+  padding-top: 152px;
   font-size: 36px;
   line-height: 53px;
   color: #323232;
 }
 
 .about__description {
+  padding-top: 40px;
   font-size: 16px;
   line-height: 25px;
   color: #999999;
 }
 
 .about__link {
+  display: block;
+  padding-top: 30px;
   font-size: 16px;
   line-height: 20px;
   text-decoration-line: underline;
   color: #4985FF;
+}
+
+.about__img {
+  padding: 100px 0 0 45px;
+}
+
+.about__hr {
+  margin-top: 90px;
+}
+
+.about__project {
+  justify-content: space-around;
+}
+
+.about__block {
+  width: 105px;
+  height: 90px;
+  margin: 70px 0px 70px 95px;
+}
+
+.about__numbers {
+  font-size: 36px;
+  line-height: 53px;
+  color: #000000;
+  padding-left: 20px;
+}
+
+.about__text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #999999;
 }

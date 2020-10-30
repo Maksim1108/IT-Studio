@@ -2,20 +2,49 @@
     min-height: 800px;
     background-color: #F6F6F8;
     &__title {
-        font-weight: bold;
+        padding-top: 152px;
         font-size: 36px;
         line-height: 53px;
         color: $dark;
     }
     &__description {
+        padding-top: 40px;
         font-size: 16px;
         line-height: 25px;
         color: $grey;
     }
     &__link {
+        display: block;
+        padding-top: 30px;
         font-size: 16px;
         line-height: 20px;
         text-decoration-line: underline;
         color: $blue;
+    }
+    &__img {
+        padding: 100px 0 0 45px;
+    }
+    &__hr {
+        margin-top: 90px;
+    }
+    &__project {
+        justify-content: space-around;
+    }
+    &__block {
+        width: 105px;
+        height: 90px;
+        margin: 70px 0px 70px 95px;
+    }
+    &__numbers {
+        font-size: 36px;
+        line-height: 53px;
+        color: $black; 
+        padding-left: 20px;
+    }
+    &__text {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+        color: $grey;
     }
 }
