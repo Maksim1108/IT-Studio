@@ -1,3 +1,47 @@
 .subcribe {
-    height: 570px;
+    &__content {
+        text-align: center;
+    }
+    &__hr {
+        margin-top: 165px;
+    }
+    &__title {
+        margin-top: 85px;
+        font-size: 18px;
+        line-height: 22px;
+        color:$black;
+    }
+    &__subtitle {
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 25px;
+        color:$grey;
+    }
+    &__description {
+        margin: 35px 0 85px 0;
+        font-size: 13px;
+        line-height: 21px;
+        color: $grey;
+    }
+    &__input {
+        margin-top: 30px;
+        padding: 15px 0 13px 33px;
+        font-size: 13px;
+        line-height: 21px;
+        color:$grey;
+        width: 489px;
+        height: 45px;
+        background: #FFFFFF;
+        border: 1px solid #F2F2F2;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+        border-radius: 30px;
+        transform: translateX(105px);
+    }
+    &__btn {
+        @include blue-btn;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        transform: translateX(-100px);
+    }
 }

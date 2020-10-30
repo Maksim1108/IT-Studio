@@ -313,7 +313,6 @@ button {
 
 .video {
   background: url(../../img/video/video-bg.jpg);
-  min-height: 570px;
 }
 
 .video__content {
@@ -344,10 +343,9 @@ button {
 
 .video__btn {
   position: relative;
-  margin-top: 235px;
+  margin: 235px 0 58px 0;
   width: 300px;
   height: 100px;
-  border: 1px;
   background: transparent;
   border: 1px solid #FFFFFF;
   box-sizing: border-box;
@@ -369,6 +367,63 @@ button {
   color: #FFFFFF;
 }
 
-.subcribe {
-  height: 570px;
+.subcribe__content {
+  text-align: center;
 }
+
+.subcribe__hr {
+  margin-top: 165px;
+}
+
+.subcribe__title {
+  margin-top: 85px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.subcribe__subtitle {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #999999;
+}
+
+.subcribe__description {
+  margin: 35px 0 85px 0;
+  font-size: 13px;
+  line-height: 21px;
+  color: #999999;
+}
+
+.subcribe__input {
+  margin-top: 30px;
+  padding: 15px 0 13px 33px;
+  font-size: 13px;
+  line-height: 21px;
+  color: #999999;
+  width: 489px;
+  height: 45px;
+  background: #FFFFFF;
+  border: 1px solid #F2F2F2;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  transform: translateX(105px);
+}
+
+.subcribe__btn {
+  width: 200px;
+  height: 45px;
+  background: #4985FF;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  transform: translateX(-100px);
+}
+
+@impor;

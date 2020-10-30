@@ -1,3 +1,12 @@
 .subcribe {
   height: 570px;
 }
+
+.subcribe__hr {
+  margin-top: 165px;
+}
+
+.subcribe__title {
+  font-size: 18px;
+  line-height: 22px;
+}

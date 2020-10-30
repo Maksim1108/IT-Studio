@@ -1,6 +1,5 @@
 .video {
     background:url(../../img/video/video-bg.jpg);
-    min-height: 570px;
     &__content {
         position: relative;
         text-align: center;
@@ -25,10 +24,9 @@
     }
     &__btn {
         position: relative;
-        margin-top: 235px;
+        margin: 235px 0 58px 0;
         width: 300px;
         height: 100px;
-        border:1px;
         background:transparent;
         border: 1px solid $white;
         box-sizing: border-box;
