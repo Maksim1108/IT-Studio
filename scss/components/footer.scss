@@ -1,0 +1,36 @@
+.footer {
+    background:#F6F6F8;
+    &__nav {
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+    &__item {
+        position: relative;
+        padding: 30px 0 0 20px;
+        font-size: 14px;
+        line-height: 22px;
+        color:$grey;
+        &::before {
+            content:'';
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            border: 1px solid $grey;
+            border-left: none;
+            border-bottom: none;
+            transform: rotate(45deg);
+            left: 0px;
+            bottom: 9px;
+        }
+    }
+    &__hr {
+        margin-top: 70px;
+    }
+    &__author {
+        padding: 30px 0;
+        font-size: 13px;
+        line-height: 21px;
+        color: $grey;
+    }
+} 

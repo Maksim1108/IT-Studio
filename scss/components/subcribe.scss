@@ -1,5 +1,6 @@
 .subcribe {
     &__content {
+        position: relative;
         text-align: center;
     }
     &__hr {
@@ -36,12 +37,13 @@
         box-sizing: border-box;
         box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
         border-radius: 30px;
-        transform: translateX(105px);
     }
     &__btn {
         @include blue-btn;
+        position: absolute;
+        top: 182px;
+        right: 310px;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
-        transform: translateX(-100px);
     }
 }

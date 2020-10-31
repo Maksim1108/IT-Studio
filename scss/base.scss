@@ -29,5 +29,7 @@ button {
     cursor: pointer;
     outline: none;
     border: none;
-    transform: scale(0.97);
+    &:active {
+        transform: scale(0.97);
+    }
 }
