@@ -15,18 +15,27 @@
         color: $grey;
     }
     &__btn {
-        margin: 55px 0 105px 0;
+        margin: 0 0 105px 450px;
         @include blue-btn;
     }
     &__row {
         margin-top: 70px;
+        justify-content: space-around;
+    }
+    &__icon {
+        padding: 0 15px;
+    }
+    &__text {
+        max-width: 226px;
+        transform: translate(135px, -65px);
     }
     &__item {
         font-size: 18px;
         line-height: 22px;
         color: $black;
     }
-    &__text {
+    &__description {
+        max-width: 222px;
         padding-top: 12px;
         font-size: 14px;
         line-height: 22px;

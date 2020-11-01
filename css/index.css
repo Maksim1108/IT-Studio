@@ -163,7 +163,7 @@ button:active {
 }
 
 .services__btn {
-  margin: 55px 0 105px 0;
+  margin: 0 0 105px 450px;
   width: 200px;
   height: 45px;
   background: #4985FF;
@@ -176,6 +176,16 @@ button:active {
 
 .services__row {
   margin-top: 70px;
+  justify-content: space-around;
+}
+
+.services__icon {
+  padding: 0 15px;
+}
+
+.services__text {
+  max-width: 226px;
+  transform: translate(135px, -65px);
 }
 
 .services__item {
@@ -184,7 +194,8 @@ button:active {
   color: #000000;
 }
 
-.services__text {
+.services__description {
+  max-width: 222px;
   padding-top: 12px;
   font-size: 14px;
   line-height: 22px;
