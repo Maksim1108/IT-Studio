@@ -481,6 +481,7 @@ button:active {
   display: flex;
   flex-direction: column;
   margin-top: 70px;
+  margin-left: 10px;
 }
 
 .footer__item {
@@ -513,4 +514,5 @@ button:active {
   font-size: 13px;
   line-height: 21px;
   color: #999999;
+  transform: translateX(450px);
 }
