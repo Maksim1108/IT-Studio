@@ -1,5 +1,5 @@
 .hero {
-    background: url(../../img/hero/hero-bg.jpg) no-repeat center top;
+    background: url(../img/hero/hero-bg.jpg) no-repeat center top;
     position: relative;
     &__content {
         @include flexbox;
@@ -13,6 +13,7 @@
         color: #FFFFFF;
     }
     &__title {
+        max-width: 829px;
         font-size: 48px;
         line-height: 64px;
         color: #FFFFFF;

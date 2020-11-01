@@ -107,7 +107,7 @@ button:active {
 }
 
 .hero {
-  background: url(../../img/hero/hero-bg.jpg) no-repeat center top;
+  background: url(../img/hero/hero-bg.jpg) no-repeat center top;
   position: relative;
 }
 
@@ -127,6 +127,7 @@ button:active {
 }
 
 .hero__title {
+  max-width: 829px;
   font-size: 48px;
   line-height: 64px;
   color: #FFFFFF;
@@ -214,6 +215,7 @@ button:active {
 }
 
 .about__description {
+  max-width: 489px;
   padding-top: 40px;
   font-size: 16px;
   line-height: 25px;
@@ -295,6 +297,7 @@ button:active {
 }
 
 .works__description {
+  max-width: 350px;
   padding-top: 30px;
   font-size: 16px;
   line-height: 25px;
@@ -481,7 +484,6 @@ button:active {
   display: flex;
   flex-direction: column;
   margin-top: 70px;
-  margin-left: 10px;
 }
 
 .footer__item {
