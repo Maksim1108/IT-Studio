@@ -65,6 +65,9 @@ button:active {
   html, body {
     overflow-x: hidden;
   }
+  html.lock {
+    overflow-y: hidden;
+  }
   .col-4, .col-6, .col-3 {
     width: 100%;
   }
@@ -551,8 +554,7 @@ button:active {
 }
 
 .video {
-  background: url(../img/video/video-bg.jpg);
-  background-repeat: no-repeat;
+  background: url(../img/video/video-bg.jpg) no-repeat center;
 }
 
 .video__content {
