@@ -1,6 +1,5 @@
 .video {
-    background:url(../img/video/video-bg.jpg);
-    background-repeat: no-repeat;
+    background:url(../img/video/video-bg.jpg) no-repeat center; 
     &__content {
         position: relative;
         text-align: center;

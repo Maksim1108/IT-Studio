@@ -2,6 +2,9 @@
     html, body {
         overflow-x: hidden;
     }
+    html.lock {
+        overflow-y: hidden;
+    } 
     .col-4, .col-6, .col-3 {
         width: 100%;
     }
