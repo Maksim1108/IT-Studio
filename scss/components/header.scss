@@ -1,4 +1,50 @@
 .header {
+    &__burger {
+        position: fixed;
+        display: none;
+        width: 50px;
+        height: 50px;
+        background:$blue;
+        border-radius: 50%;
+        z-index: 10;
+        cursor: pointer;
+        &-line {
+            position: relative;
+            margin: 50% 0 0 50%;
+            transform: translate(-50%, -50%);
+            display: block;
+            height: 3px;
+            width: 30px;
+            background-color: $white; 
+            &::before,
+            &::after {
+                content:'';
+                position: absolute;
+                width: 100%;
+                height: 3px;
+                background:$white;
+            }
+            &::before {
+                top: -8px;
+            }
+            &::after {
+                top: 8px;
+            }
+            &.active {
+                background-color:$blue;
+            }
+            &.active::before {
+                top: 0;
+                transform: rotate(-45deg);
+                transition: 0.3s;
+            }
+            &.active::after {
+                top: 0;
+                transform: rotate(45deg);
+                transition: 0.3s;
+            }
+        }
+    }
     position: absolute;
     width: 100%;
     z-index: 1;
@@ -36,4 +82,4 @@
             width: 100%;
         }
     }
-}
+} 
