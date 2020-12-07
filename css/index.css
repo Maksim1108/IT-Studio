@@ -302,6 +302,7 @@ button:active {
 
 .hero {
   background: url(../img/hero/hero-bg.jpg) no-repeat center top;
+  background-size:cover;
   position: relative;
 }
 
@@ -555,6 +556,7 @@ button:active {
 
 .video {
   background: url(../img/video/video-bg.jpg) no-repeat center;
+  background-size:cover;
 }
 
 .video__content {

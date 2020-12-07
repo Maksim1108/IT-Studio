@@ -12,12 +12,12 @@
         width: 320px;
     }
     .header {
-        .header__burger {
+        &__burger {
             display: block;
             right: 25px;
             top: 25px;
         }
-        .header__menu {
+        &__menu {
             position: fixed;
             transform: translateX(150%);
             transition: 1s;
@@ -33,7 +33,7 @@
                 transition: 1s;
             }
         }
-        .header__link {
+        &__link {
             font-size: 32px;
             line-height: 70px;
             &::before {

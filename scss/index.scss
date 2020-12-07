@@ -1,14 +1,14 @@
 @import "base.scss";
 @import "classes.scss";
 @import "mixins.scss";
-@import "var.scss";
-@import "media.scss";  
+@import "var.scss"; 
 @import "./components/header.scss";
 @import "./components/hero.scss";  
 @import "./components/services.scss";
 @import "./components/about.scss";
-@import "./components/works.scss";
+@import "./components/works";
 @import "./components/projects.scss";
 @import "./components/video.scss";
 @import "./components/subcribe.scss";
 @import "./components/footer.scss";
+@import "media.scss";        

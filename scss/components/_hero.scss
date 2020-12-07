@@ -1,5 +1,6 @@
 .hero {
-    background: url(../img/hero/hero-bg.jpg) no-repeat center top;
+    background: url(../img/hero/hero-bg.jpg) no-repeat center;
+    background-size: cover;
     position: relative;
     &__content {
         @include flexbox;
@@ -23,4 +24,4 @@
         margin-bottom: 335px;
         @include blue-btn;
     }
-}
+} 
